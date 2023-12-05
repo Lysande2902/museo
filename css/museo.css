@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(35, 32, 32);
+    text-shadow: 1px 2px 2px rgba(209, 209, 209, 0.511);
+    text-align: center;
+}
+
+p {
+    color: rgb(29, 13, 63);
+    text-shadow: 1px 2px 2px rgba(221, 221, 221, 0.511);
+    text-align: center;
+}
+
+body{
+    background: rgb(229, 251, 255);
+}
+
+div.Galeria{
+    margin: 5px 10px;
+    box-shadow: 0 4px 8px 0 rgb(46, 46, 46), 0 6px 2px 0 rgb(134, 134, 134);
+    float: left;
+    width: 350px;
+}
+
+div.Galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.Galeria:hover{
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(3deg);
+}
